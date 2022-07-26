@@ -1,3 +1,4 @@
+import snowflake.conector
 import streamlit
 import pandas
 streamlit.title("All good here..")
