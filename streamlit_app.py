@@ -23,7 +23,7 @@ def get_fruit_load_list():
 
 def insert_row_snowflake(add_this_fruit):
      with my_cnx.cursor() as my_cur:
-          my_cur.execute("insert into fruit_load_list values('tramlit')")
+          my_cur.execute("insert into fruit_load_list values('" + add_this_fruit + "')'")
      return "Thanks for adding , " + add_this_fruit
      
 
