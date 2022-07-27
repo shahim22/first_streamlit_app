@@ -15,7 +15,7 @@ def get_fruityvice_data(this_fruit_choice):
      fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
      return fruityvice_normalized    
 
-def get_fruit_load_list():"
+def get_fruit_load_list():
     my_cur = my_cnx.cursor()
     #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
     my_cur.execute("SELECT * from fruit_load_list")
