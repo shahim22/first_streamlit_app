@@ -57,7 +57,7 @@ except URLError as e:
 
 #import snowflake.connector
 #dont run anything from here
-streamlit.stop()
+# streamlit.stop()
 
 #Add a button to load the fruit
 if streamlit.button('Get the fruit Load list'):
